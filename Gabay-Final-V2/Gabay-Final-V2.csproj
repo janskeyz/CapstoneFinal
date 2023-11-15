@@ -134,6 +134,8 @@
     <Content Include="Bootstrap\Content\bootstrap.min.css" />
     <Content Include="Bootstrap\Content\bootstrap.rtl.css" />
     <Content Include="Bootstrap\Content\bootstrap.rtl.min.css" />
+    <Content Include="Landing_Page\KJKJ.html" />
+    <Content Include="Landing_Page\KJKJKJJ.aspx" />
     <Content Include="Landing_Page\LandingPage.aspx" />
     <Content Include="Prototype\JavaScript.js" />
     <Content Include="Prototype\tempPage.aspx" />
@@ -2350,6 +2352,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Landing_Page\KJKJKJJ.aspx.cs">
+      <DependentUpon>KJKJKJJ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Landing_Page\KJKJKJJ.aspx.designer.cs">
+      <DependentUpon>KJKJKJJ.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Landing_Page\LandingPage.aspx.cs">
       <DependentUpon>LandingPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
